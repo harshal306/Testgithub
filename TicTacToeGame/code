@@ -4,18 +4,18 @@
 
 
 void Vcal() {
-	char V[2][100];
-		int i,j,k,l;
-			for(i=0; i<2; i++) {
-					printf("\n");
-						}
-							printf("\t\t\t");
-								strcpy(V[0],"!!WELCOME TO TIC TAC TOE GAME!!");
-									for(j=0; j<1; j++) {
-											for(k=0; k<32; k++) {
-														printf("%c",V[j][k]);
-																	for(l=0; l<100000000; l++);
-																			}
+char V[2][100];
+int i,j,k,l;
+for(i=0; i<2; i++) {
+	printf("\n");
+	}
+printf("\t\t\t");
+strcpy(V[0],"!!WELCOME TO TIC TAC TOE GAME!!");
+for(j=0; j<1; j++) {
+	for(k=0; k<32; k++) {
+		printf("%c",V[j][k]);
+		for(l=0; l<100000000; l++);
+}
 																				}
 																				}
 																				int main() {
